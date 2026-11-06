@@ -1,0 +1,22 @@
+{
+  "name": "ai-shortfilm-prompts",
+  "description": "AI 短片提示词方法论：5 段式结构 + Mx-Shell《丧尸清道夫》案例集 + Claude Code Skill",
+  "owner": {
+    "name": "jnMetaCode",
+    "url": "https://github.com/jnMetaCode"
+  },
+  "plugins": [
+    {
+      "name": "ai-shortfilm-prompts",
+      "description": "电影感 AI 视频提示词:5 段式方法论 + 21 类题材模板库 + Claude Code Skill,适用 Seedance 2.0 / 可灵 / Sora / Veo / 即梦 / Runway。在线库 prompts.aiolaola.com",
+      "version": "0.5.0",
+      "source": ".",
+      "homepage": "https://github.com/jnMetaCode/ai-shortfilm-prompts",
+      "license": "MIT",
+      "author": {
+        "name": "jnMetaCode",
+        "url": "https://github.com/jnMetaCode"
+      }
+    }
+  ]
+}

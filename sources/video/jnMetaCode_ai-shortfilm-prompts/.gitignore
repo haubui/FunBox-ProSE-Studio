@@ -1,0 +1,55 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 大文件（GitHub 单文件 100MB 上限）
+# 直播录像放本地，README 引用 B 站/油管链接
+资料/直播回放切片.mp4
+*.mp4
+*.mov
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Python（如果以后加测试脚本）
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node（如果以后加 plugin 安装脚本）
+node_modules/
+
+# 临时文件
+*.tmp
+*.bak
+
+# 个人内容，不上传 GitHub
+# 教程：发公众号/抖音/小红书的文章，保持渠道独占性
+教程/
+# 资料：Mx-Shell 原始 docx + 直播视频 + 截图，版权敏感 + 渠道独占
+资料/
+# 内部 checklist
+发布前checklist.md
+
+# 短片制作（私有）：爆款要求 agent（借自 article-to-reel）、分镜/抽卡/发布稿
+# 含外部项目复制内容 + 渠道独占，不上传 GitHub
+shortfilm-private/
+# 短片生产素材：参考图、成片帧、分镜 md —— 私有制作物，不进仓库
+assets/images/
+assets/参考图片/
+assets/最后一单_DEAD_ON_TIME_最终定稿.md
+# v3 成片素材（1.1G：mov/wav/成片帧/版权存证）+ 出片问题截图 —— 版权敏感，绝不入库
+assets/v3/
+assets/问题登记/
+# 本地开发用 workflow 脚本，不进公开产品
+.claude/workflows/
+# 密钥：Cloudflare/部署 token —— 绝不入库
+.cf.env
+.cloudflare.env
+.dev.vars
+.env
+.env.*

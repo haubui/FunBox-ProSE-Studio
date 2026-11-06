@@ -1,0 +1,10 @@
+# Cloudflare Workers 静态资源部署配置
+# 把 docs/ 目录作为静态站点发布（assets-only Worker，无需脚本）。
+# Cloudflare Pages/Workers Build 命令用：npx wrangler deploy
+name = "ai-shortfilm-prompts"
+compatibility_date = "2025-01-01"
+# 关掉带账号数字的 *.workers.dev 预览域，只走自定义域 prompts.aiolaola.com
+workers_dev = false
+
+[assets]
+directory = "./docs"
